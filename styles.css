@@ -11,29 +11,31 @@ body{
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 /*body*/
 header{
-    background-color: white;
+    background: white;
     color: black;   /*text*/
     min-height: 70px;
-    border-bottom: 3px soliod black;
+    border-bottom: black 3px soliod;
 }
 
 a{
-    color: green;
+    color: black;
     text-decoration: none;
     font-size: 16px;
 }
 
-header ul{
-    margin: 0;
-    padding: 0;
-}
+
 
 header li{
     float: left;
@@ -42,8 +44,44 @@ header li{
     padding-left: 20px;
 } 
 
+#brand{
+    float: left;    
+}
+
+#brand h1, #brand h2{
+    margin: 0;    
+}
+
 #navBar{
     float: right;
     padding-right: 10%;
+    padding-top: 20px;
+}
+
+.highlight, header .current a{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/**/
+
+article{
+    background: white;
+    min-height: 400px;
 
 }
+
+#mainArticle img{
+    
+    display: block;
+    object-fit: cover;  
+    width: 320px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
