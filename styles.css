@@ -69,6 +69,17 @@ a:hover{
 
 /**/
 
+.textContainer .container{
+    font-size: 25px;
+    line-height: 2.0;
+}
+
+.textContainer{
+    background: lightslategrey;
+    border-bottom: 3px solid darkgreen; 
+
+}
+
 #mainArticle{
     background: black;
     min-height: 320px;
@@ -133,7 +144,7 @@ a:hover{
 footer{
     
     color: darkslategray;
-    background-color: gray;  
+    background-color: lightslategrey;  
     border-top: 3px solid darkgreen;   
     padding: 45px;
     margin-top: 30px;
